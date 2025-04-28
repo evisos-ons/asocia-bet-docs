@@ -29,4 +29,5 @@
           - run: pip install mkdocs-material
           - run: pip install -r ./docs/mkdocs_req.txt
           - run: |
+              echo "docs.asocia.bet" > docs/src/CNAME
               PYTHONPATH=. mkdocs gh-deploy --force -f docs/mkdocs.yml
