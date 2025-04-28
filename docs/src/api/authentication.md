@@ -4,10 +4,13 @@ The AsociaBet API uses API keys to authenticate requests. This guide explains ho
 
 ## Getting Your API Keys
 
-1. **Create an account**: Sign up at [dev-api.asocia.bet/signup](https://dev-api.asocia.bet/signup)
-2. **Visit the Dashboard**: Navigate to the API Keys section
-3. **Generate Keys**: Create the type of key you need (private or public)
-4. **Set Allowed Origins**: For public keys, specify the domains that can use this key
+1. **Create an account**: Sign up at [dev.asocia.bet/signup](https://dev.asocia.bet/signup) with you gmail account
+2. **Visit the Dashboard**: Navigate to the 'Projects' page in the left hand sidebar
+3. **Create a Project**: Click 'New Project' and give it a name (description optional) 
+
+4. **Generate Keys**: Click Settings > API Keys > Create New Key
+5. **Create Key**: Name the key and choose what type of key (private is recommended)
+5. **Set Allowed Origins**: For public keys, specify the domains that the project's keys are allowed from
 
 ## API Key Types
 

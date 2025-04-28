@@ -1,6 +1,4 @@
-site_name: AsociaBet API Documentation
-repo_url: https://github.com/evisos-ons/asocia-bet-docs
-repo_name: AsociaBet Developer Portal
+site_name: AsociaBet API Docs
 site_url: https://docs.asocia.bet
 
 docs_dir: src
@@ -25,8 +23,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: black
+      primary: white
+      accent: white
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -37,9 +35,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  font: false  # Disable default font loading
 
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
@@ -60,3 +58,28 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
+
+# Add social links to footer
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/AsociaBet
+      name: AsociaBet on Twitter
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/ujmqHhxXgZ
+      name: Join our Discord
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+GG-JJcZQNTRlYTI0
+      name: AsociaBet on Telegram
+    - icon: material/web
+      link: https://www.asocia.bet
+      name: AsociaBet Website
+    - icon: material/developer-board
+      link: https://dev.asocia.bet
+      name: AsociaBet Developer Portal
+    - icon: material/tree
+      link: https://linktr.ee/asociabet
+      name: AsociaBet Linktree

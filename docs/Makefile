@@ -9,6 +9,10 @@ all: install serve
 setup:
 	python -m venv venv
 
+# Return the command to activate the virtual environment
+activate:
+	echo "source venv/bin/activate"
+
 # Install dependencies
 install:
 	pip install mkdocs mkdocs-material pymdown-extensions

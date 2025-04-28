@@ -2,13 +2,16 @@
 
 This guide will help you quickly integrate the AsociaBet API into your application to access Twitter and YouTube data.
 
-## Step 1: Create an Account
+## Step 1a: Create an Account
 
 Before you can use the API, you'll need to:
 
-1. Sign up at [dev-api.asocia.bet/signup](https://dev-api.asocia.bet/signup)
-2. Verify your email address
-3. Complete your account profile
+1. Visit [dev.asocia.bet/signup](https://dev.asocia.bet/signup)
+2. Login with your Gmail account
+
+## Step 1b: Purchase credits
+
+For the time being, contact the admin for test credits.
 
 ## Step 2: Generate Your API Keys
 
