@@ -9,6 +9,12 @@
 .md-header {
   box-shadow: none;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.md-search__form {
+    border-radius: 12px !important;
 }
 
 /* Style the main content area differently from sidebars */
