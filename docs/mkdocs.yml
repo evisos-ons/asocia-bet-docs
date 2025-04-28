@@ -1,6 +1,7 @@
 site_name: AsociaBet API Documentation
 repo_url: https://dev.asocia.bet
 repo_name: AsociaBet Developer Portal
+site_url: https://docs.asocia.bet
 
 docs_dir: src
 
