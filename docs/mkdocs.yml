@@ -1,0 +1,61 @@
+site_name: AsociaBet API Documentation
+repo_url: https://dev.asocia.bet
+repo_name: AsociaBet Developer Portal
+
+docs_dir: src
+
+nav:
+  - Home: index.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Authentication: api/authentication.md
+    - Endpoints:
+      - Twitter API: api/endpoints/twitter.md
+      - YouTube API: api/endpoints/youtube.md
+  - Integration Guide:
+    - Getting Started: integration/getting-started.md
+    - Best Practices: integration/best-practices.md
+
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotation
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+plugins:
+  - search
